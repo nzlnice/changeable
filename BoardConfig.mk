@@ -126,6 +126,7 @@ TW_SUPPORT_INPUT_1_2_HAPTICS := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 255
+TW_SCREEN_TIMEOUT_SECS := "120"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone50/temp"
 
 # Crypto
