@@ -16,4 +16,4 @@
 /vbmeta                emmc     /dev/block/bootdevice/by-name/vbmeta                      flags=display="vbmeta"
 /dtbo                    emmc     /dev/block/bootdevice/by-name/dtbo                        flags=display="dtbo";backup=1
 
-/usb_otg          auto    /dev/block/sdg1  /dev/block/sdg            flags=display="usb-otg";storage;wipeingui;removable;fsflags="utf8"
+/usb_otg          auto    /dev/block/sda1  /dev/block/sda            flags=storage;wipeingui;removable;display="USB-OTG"
