@@ -25,6 +25,8 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+/usb_otg         auto              /dev/block/sda1      /dev/block/sda      flags=storage;wipeingui;removable;display="USB-OTG"
+
 # Vendor variant of recovery.fstab. Same as recovery.fstab, with additional vendor entry.
 
 #device         mount point      fstype        [device2] [length=]
