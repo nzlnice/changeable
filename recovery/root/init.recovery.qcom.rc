@@ -40,6 +40,9 @@ on fs
     chown system system /dev/ion
     install_keyring
 
+    # OTG
+    write /sys/devices/soc.0/78d9000.usb/host_mode enabled
+
 on early-fs
     write /proc/sys/kernel/sched_lib_name "recovery,Updater,updater"
     write /proc/sys/kernel/sched_lib_mask_force 255
